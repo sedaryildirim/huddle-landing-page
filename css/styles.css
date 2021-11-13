@@ -88,6 +88,12 @@ p {
     border-style: none;
 }
 
+.button:hover {
+    background-color: var(--cc-magenta-);
+    color: white;
+    cursor: pointer;
+}
+
 .social-icons {
     display: flex;
     flex-direction: row;
@@ -128,4 +134,28 @@ p {
     padding: 0.5rem;
     border: 2px solid white;
     border-radius: 100%;
+    fill: white;
+}
+
+.fb-icon:hover {
+    content: url('../icons/facebook-brands-2.svg');
+    cursor: pointer;
+    border-color: var(--cc-magenta-);
+}
+
+.tw-icon:hover {
+    content: url('../icons/twitter-brands-2.svg');
+
+    cursor: pointer;
+    border-color: var(--cc-magenta-);
+}
+
+.in-icon:hover {
+    content: url('../icons/instagram-brands-2.svg');
+    cursor: pointer;
+    border-color: var(--cc-magenta-);
+}
+
+@media (min-width: 1440px) {
+    
 }
