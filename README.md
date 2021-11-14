@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
@@ -46,7 +46,11 @@ Users should be able to:
 
 ### What I learned
 
+Better layout understanding with grid and flexbox, really enjoying grid so far!
+
 ### Continued development
+
+Need better understanding of what size media queries to use for best breakpoints
 
 ### Useful resources
 
